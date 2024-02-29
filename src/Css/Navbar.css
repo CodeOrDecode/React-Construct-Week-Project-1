@@ -1,0 +1,128 @@
+/* Navbar start here */
+
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  height: 65px;
+  background-color: #2d2d2d;
+  display: flex;
+}
+
+.firstnav {
+  width: 25%;
+  height: 65px;
+  /* background-color: red; */
+  display: flex;
+}
+
+.firstnavone {
+  width: 33%;
+  height: 65px;
+  border-right: 1px solid #525050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.firstnavone > img {
+  width: 72px;
+}
+
+.firstnavtwo {
+  width: 33%;
+  height: 65px;
+  border-right: 1px solid #525050;
+  font-family: "Hind", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.firstnavtwo:hover {
+  background-color: #525050;
+}
+
+.firstnavthree {
+  width: 33%;
+  height: 65px;
+  border-right: 1px solid #525050;
+  font-family: "Hind", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.firstnavthree:hover {
+  background-color: #525050;
+}
+
+.secondnav {
+  width: 60%;
+  height: 65px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 13px;
+}
+
+.secondnav > input {
+  width: 94%;
+  height: 38px;
+  border-radius: 120px;
+  border: none;
+  outline: none;
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 18px;
+}
+
+#serarchicon {
+  position: relative;
+  top: 0px;
+  right: 28px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.thirdnav {
+  width: 15%;
+  height: 65px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdnavinside {
+  width: 25%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdnav > div > img {
+  width: 20px;
+  cursor: pointer;
+}
+
+
+/* Navbar ends here */
